@@ -1,0 +1,18 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<B_Hotfix_Hotfile>
+			<Arg> UINT8 </Arg>
+			<Arg> UNICODE </Arg>
+		</B_Hotfix_Hotfile>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>
