@@ -45,3 +45,9 @@ hot.B_Hotfix_Hotfile(1, ['parent.C1'])             # 更新 BaseApp parent.C1.py
 hot.B_Hotfix_Hotfile(2, ['Account'])               # 更新 CellApp Account.py 文件
 hot.B_Hotfix_Hotfile(3, ['CustomClass'])           # 更新 BaseApp与CellApp 的 CustomClass.py 文件
 ```
+
+5. 更新工具类型 数据类
+```python
+hot = KBEngine.globalData['Hotfix_Ent']
+hot.B_Hotfix_Hotfile(3, ['Functor'])  # 更新 BaseApp Functor.py 文件
+```

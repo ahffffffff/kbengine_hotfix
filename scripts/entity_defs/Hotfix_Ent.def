@@ -8,7 +8,7 @@
 	<BaseMethods>
 		<B_Hotfix_Hotfile>
 			<Arg> UINT8 </Arg>
-			<Arg> UNICODE </Arg>
+			<Arg> ARRAY <of> UNICODE </of> </Arg>
 		</B_Hotfix_Hotfile>
 	</BaseMethods>
 
