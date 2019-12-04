@@ -17,7 +17,7 @@ import xxx
 ```
 2. 创建加载 `Hotfix_Ent` 实体
 
-3. 需要热更的类或实体继承 `Hotfix.Hotfix` 并增加 `onTimer` 回调
+3. 需要热更的类或实体继承 `Hotfix.Hotfix` 并增加 `onTimer` 回调。 公用类型的类不需要回调，只需要继承 `Hotfix.Hotfix`。
 ```python
 import Hotfix
 class YouEntity(KBEngine.Entity, Hotfix.Hotfix):
