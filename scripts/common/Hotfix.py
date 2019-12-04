@@ -66,6 +66,8 @@ class Hotfix:
         #KBEDebug.ERROR_MSG("Hotfix.__init__.hotlist %s" % (self.parentClass))
 
     def Hotfix_Update(self):
+        self.__hot_common()
+        
         hdataList = getHotfixList()
         if hdataList is None:
             return
@@ -108,8 +110,6 @@ class Hotfix:
 
         if bNeedHot:                
             self.__hot()
-
-        self.__hot_common()
 
     def __hot(self):
         for name, obj in inspect.getmembers(self.selfClass):
