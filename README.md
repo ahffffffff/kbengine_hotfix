@@ -50,4 +50,5 @@ hot.B_Hotfix_Hotfile(3, ['CustomClass'])           # 更新 BaseApp与CellApp �
 ```python
 hot = KBEngine.globalData['Hotfix_Ent']
 hot.B_Hotfix_Hotfile(3, ['Functor'])  # 更新 BaseApp Functor.py 文件
+hot.B_Hotfix_Hotfile(3, ['d_data'])  # 更新 BaseApp d_data.py 文件
 ```
