@@ -71,4 +71,4 @@ class Hotfix_Ent(KBEngine.Entity, Hotfix.Hotfix):
             oldHData[filename] = newClassData
 
         Hotfix.setHotfixList(component, oldHData)
-        KBEDebug.ERROR_MSG("Hotfix_Ent.B_Hotfix_Hotfile. broadcast done")
+        KBEDebug.INFO_MSG("Hotfix_Ent.B_Hotfix_Hotfile. broadcast done")
